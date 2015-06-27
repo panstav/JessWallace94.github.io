@@ -1,0 +1,19 @@
+{
+  "name": "Jessica Wallace Portfolio",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jesswallace94/jesswallace94.github.io",
+  "authors": [
+    "JessWallace94 <jess.wallace@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
