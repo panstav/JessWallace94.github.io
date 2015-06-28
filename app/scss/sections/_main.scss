@@ -10,24 +10,24 @@
 #main-services {
   @include span(12);
   .main-one {
-    @include span(4 first);
+    @include span(12);
     
   }
   .main-two {
-    @include span(4);
+    @include span(12);
     
   }
   .main-three {
-    @include span(4 last);
+    @include span(12);
     
   }
 }
 
 @include breakpoint(500px) {
 	#main-services {
-		.main-one { @include span(12); } 
-		.main-two { @include span(12); }
-		.main-three  { @include span (12); }
+		.main-one { @include span(4 first); } 
+		.main-two { @include span(4); }
+		.main-three  { @include span (4 last); }
 	}
 }
 
