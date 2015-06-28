@@ -1,4 +1,27 @@
 // ***********************************
-// NAVIGATION
+// NAVIGATION \\ HEADER 
 // ***********************************
+
+header {
+	background-color: $grey;
+}
+
+nav {
+	.site-title {
+		float: left;
+		padding: 10px;
+	}
+
+	ul {
+		float: right;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline;
+			padding: 10px;
+		}
+	}
+}
 
